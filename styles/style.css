@@ -24,6 +24,31 @@
   left: 64px;
   z-index: 2;
 }
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  align-self: flex-end;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  left: 64px;
+  bottom: 30px;
+  z-index: 2;
+}
+
+.header__link {
+  position: absolute;
+  align-self: flex-end;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  left: 130px;
+  bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
 
 .header__square-pic {
   height: 568px;
@@ -59,3 +84,24 @@
   z-index: 1;
 }
 
+.description {
+  top: 100px;
+  position: relative;
+}
+
+.two-columns {
+  position: absolute;
+  width: 80%;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  position: absolute;
+  align-self: center;
+}
+
+.two-columns__main-text {
+  position: absolute;
+  align-self: center;
+}
